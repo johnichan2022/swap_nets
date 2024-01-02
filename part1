@@ -1,0 +1,184 @@
+signal jdksfj_vqps_efuse
+signal jdksfj_vbias_tjdksfj
+signal jdksfj_vbb20_tjdksfj
+signal jdksfj_temp_tjdksfj
+signal jdksfj_pok18_tjdksfj
+signal jdksfj_pok10_tjdksfj
+signal jdksfj_uey_out_tjdksfj
+signal jdksfj_uey_in_tjdksfj
+signal jdksfj_cath__lky__tjdksfj
+signal jdksfj_cath__ddy__tjdksfj
+signal jdksfj_arst_n
+signal jdksfj_anode_tjdksfj
+signal jdksfj_anode__lky__tjdksfj
+signal jdksfj_anode__ddy__tjdksfj
+signal jdksfj_irq_out
+signal jdksfj_tdo
+signal jdksfj_miso
+signal jdksfj_gpio(0)
+signal jdksfj_gpio(1)
+signal jdksfj_gpio(2)
+signal jdksfj_gpio(3)
+signal jdksfj_gpio(4)
+signal jdksfj_gpio(5)
+signal jdksfj_gpio(6)
+signal jdksfj_gpio(7)
+signal jdksfj_gpio(8)
+signal jdksfj_gpio(9)
+signal jdksfj_gpio(10)
+signal jdksfj_gpio(11)
+signal jdksfj_gpio(12)
+signal jdksfj_gpio(13)
+signal jdksfj_gpio(14)
+signal jdksfj_gpio(15)
+signal dskfhakjsflkajds(0)
+signal dskfhakjsflkajds(1)
+signal dskfhakjsflkajds(2)
+signal dskfhakjsflkajds(3)
+signal dskfhakjsflkajds(4)
+signal dskfhakjsflkajds(5)
+signal dskfhakjsflkajds(6)
+signal dskfhakjsflkajds(7)
+signal dskfhakjsflkajds(8)
+signal dskfhakjsflkajds(9)
+signal dskfhakjsflkajds(10)
+signal dskfhakjsflkajds(11)
+signal dskfhakjsflkajds(12)
+signal dskfhakjsflkajds(13)
+signal dskfhakjsflkajds(14)
+signal dskfhakjsflkajds(15)
+signal dskfhakjsflkajds(16)
+signal dskfhakjsflkajds(17)
+signal dskfhakjsflkajds(18)
+signal dskfhakjsflkajds(19)
+signal dskfhakjsflkajds(20)
+signal dskfhakjsflkajds(21)
+signal dskfhakjsflkajds(22)
+signal dskfhakjsflkajds(23)
+signal dskfhakjsflkajds(24)
+signal dskfhakjsflkajds(25)
+signal dskfhakjsflkajds(26)
+signal dskfhakjsflkajds(27)
+signal dskfhakjsflkajds(28)
+signal dskfhakjsflkajds(29)
+signal dskfhakjsflkajds(30)
+signal dskfhakjsflkajds(31)
+signal jdksfj__dfy__dp(0)
+signal jdksfj__dfy__dp(1)
+signal jdksfj__dfy__dp(2)
+signal jdksfj__dfy__dp(3)
+signal jdksfj__dfy__dn(0)
+signal jdksfj__dfy__dn(1)
+signal jdksfj__dfy__dn(2)
+signal jdksfj__dfy__dn(3)
+signal jdksfj_trst_n
+signal jdksfj_tms
+signal jdksfj_tdi
+signal jdksfj_tck
+signal jdksfj_ss_n
+signal jdksfj_sck
+signal jdksfj_row_sync
+signal jdksfj_uey_vsync
+signal jdksfj_uey_hsync
+signal jdksfj_mosi
+signal jdksfj__dfy__clp
+signal jdksfj__dfy__cln
+signal jdksfj_i_sync
+signal jdksfj_clk_ref
+signal jdksfj_clk_pif
+instruction length 4
+register DIR 32
+register BSR 86
+register BYPASS 1
+instruction IDCODE 1000 DIR
+instruction HIGHZ 0010 BYPASS
+instruction PRELOAD 0100 BSR
+instruction SAMPLE/PRELOAD 0100 BSR
+instruction EXTEST 0001 BSR
+instruction BYPASS 1111 BYPASS
+bit 85 I ? jdksfj__dfy__dp(3)
+bit 84 I ? jdksfj__dfy__dn(3)
+bit 83 I ? jdksfj__dfy__dp(2)
+bit 82 I ? jdksfj__dfy__dn(2)
+bit 81 I ? jdksfj__dfy__clp
+bit 80 I ? jdksfj__dfy__cln
+bit 79 I ? jdksfj__dfy__dp(1)
+bit 78 I ? jdksfj__dfy__dn(1)
+bit 77 I ? jdksfj__dfy__dp(0)
+bit 76 I ? jdksfj__dfy__dn(0)
+bit 75 O ? jdksfj_miso 74 0 Z
+bit 74 C 0 *
+bit 73 I ? jdksfj_mosi
+bit 72 I ? jdksfj_sck
+bit 71 I ? jdksfj_ss_n
+bit 70 I ? jdksfj_uey_vsync
+bit 69 I ? jdksfj_uey_hsync
+bit 68 I ? dskfhakjsflkajds(0)
+bit 67 I ? dskfhakjsflkajds(1)
+bit 66 I ? dskfhakjsflkajds(2)
+bit 65 I ? dskfhakjsflkajds(3)
+bit 64 I ? dskfhakjsflkajds(4)
+bit 63 I ? dskfhakjsflkajds(5)
+bit 62 I ? dskfhakjsflkajds(6)
+bit 61 I ? dskfhakjsflkajds(7)
+bit 60 I ? dskfhakjsflkajds(8)
+bit 59 I ? dskfhakjsflkajds(9)
+bit 58 I ? dskfhakjsflkajds(10)
+bit 57 I ? dskfhakjsflkajds(11)
+bit 56 I ? dskfhakjsflkajds(12)
+bit 55 I ? dskfhakjsflkajds(13)
+bit 54 I ? dskfhakjsflkajds(14)
+bit 53 I ? dskfhakjsflkajds(15)
+bit 52 I ? jdksfj_clk_pif
+bit 51 I ? dskfhakjsflkajds(16)
+bit 50 I ? dskfhakjsflkajds(17)
+bit 49 I ? dskfhakjsflkajds(18)
+bit 48 I ? dskfhakjsflkajds(19)
+bit 47 I ? dskfhakjsflkajds(20)
+bit 46 I ? dskfhakjsflkajds(21)
+bit 45 I ? dskfhakjsflkajds(22)
+bit 44 I ? dskfhakjsflkajds(23)
+bit 43 I ? dskfhakjsflkajds(24)
+bit 42 I ? dskfhakjsflkajds(25)
+bit 41 I ? dskfhakjsflkajds(26)
+bit 40 I ? dskfhakjsflkajds(27)
+bit 39 I ? dskfhakjsflkajds(28)
+bit 38 I ? dskfhakjsflkajds(29)
+bit 37 I ? dskfhakjsflkajds(30)
+bit 36 I ? dskfhakjsflkajds(31)
+bit 35 I ? jdksfj_row_sync
+bit 34 I ? jdksfj_clk_ref
+bit 33 I ? jdksfj_i_sync
+bit 32 B ? jdksfj_gpio(0) 31 0 Z
+bit 31 C 0 *
+bit 30 B ? jdksfj_gpio(1) 29 0 Z
+bit 29 C 0 *
+bit 28 B ? jdksfj_gpio(2) 27 0 Z
+bit 27 C 0 *
+bit 26 B ? jdksfj_gpio(3) 25 0 Z
+bit 25 C 0 *
+bit 24 B ? jdksfj_gpio(4) 23 0 Z
+bit 23 C 0 *
+bit 22 B ? jdksfj_gpio(5) 21 0 Z
+bit 21 C 0 *
+bit 20 B ? jdksfj_gpio(6) 19 0 Z
+bit 19 C 0 *
+bit 18 B ? jdksfj_gpio(7) 17 0 Z
+bit 17 C 0 *
+bit 16 B ? jdksfj_gpio(8) 15 0 Z
+bit 15 C 0 *
+bit 14 B ? jdksfj_gpio(9) 13 0 Z
+bit 13 C 0 *
+bit 12 B ? jdksfj_gpio(10) 11 0 Z
+bit 11 C 0 *
+bit 10 B ? jdksfj_gpio(11) 9 0 Z
+bit 9 C 0 *
+bit 8 B ? jdksfj_gpio(12) 7 0 Z
+bit 7 C 0 *
+bit 6 B ? jdksfj_gpio(13) 5 0 Z
+bit 5 C 0 *
+bit 4 B ? jdksfj_gpio(14) 3 0 Z
+bit 3 C 0 *
+bit 2 B ? jdksfj_gpio(15) 1 0 Z
+bit 1 C 0 *
+bit 0 O ? jdksfj_irq_out
